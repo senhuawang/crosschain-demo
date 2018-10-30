@@ -16,7 +16,7 @@ func main() {
 	app.Flags = []cli.Flag{
 		cli.StringFlag{
 			Name:  "sm-client",
-			Usage: "The smartraiden restful host, Default http://localhost:5001",
+			Usage: "The photon restful host, Default http://localhost:5001",
 			Value: "http://localhost:5001",
 		},
 		cli.StringFlag{
